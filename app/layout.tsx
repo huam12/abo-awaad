@@ -3,10 +3,7 @@ import type { Metadata } from "next";
 import { Noto_Sans_Arabic, Geist_Mono } from "next/font/google";
 import { Analytics } from "@vercel/analytics/next";
 import "./globals.css";
-<meta
-  name="google-site-verification"
-  content="xnRLtSp8C4Y9JoizxmUUg42YaJ4Q8y5tdhYVP4xpI1o"
-/>;
+
 const notoClassic = Noto_Sans_Arabic({
   subsets: ["arabic"],
   variable: "--font-sans",
@@ -22,6 +19,10 @@ export const metadata: Metadata = {
   description:
     "شركة أبو عواد المتخصصة في أرقى أعمال النجارة والديكورات الخشبية والأثاث المخصص في المملكة العربية السعودية.",
   generator: "v0.app",
+
+  verification: {
+    google: "zNdyjGeIHHooq_m6i6FfDNXwJfc77hZz5J8rX0oM8T4",
+  },
   icons: {
     icon: [
       {
