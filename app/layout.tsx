@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "شركة أبو عواد المتخصصة في أرقى أعمال النجارة والديكورات الخشبية والأثاث المخصص في المملكة العربية السعودية.",
   generator: "v0.app",
   verification: {
-    google: "TlzK308LgsfZtSO10iPMYmsZYAI0LOz4CRshPg9koLY",
+    google: "zNdyjGeIHHooq_m6i6FfDNXwJfc77hZz5J8rX0oM8T4",
   },
 
   icons: {
