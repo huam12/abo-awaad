@@ -20,7 +20,7 @@ export const metadata: Metadata = {
     "شركة أبو عواد المتخصصة في أرقى أعمال النجارة والديكورات الخشبية والأثاث المخصص في المملكة العربية السعودية.",
   generator: "v0.app",
   verification: {
-    google: "zNdyjGeIHHooq_m6i6FfDNXwJfc77hZz5J8rX0oM8T4",
+    google: "xnRLtSp8C4Y9JoizxmUUg42YaJ4Q8y5tdhYVP4xpI1o",
   },
 
   icons: {
@@ -49,12 +49,6 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="ar" dir="rtl">
-      <head>
-        <meta
-          name="google-site-verification"
-          content="zNdyjGeIHHooq_m6i6FfDNXwJfc77hZz5J8rX0oM8T4"
-        />
-      </head>
       <body
         className={`${notoClassic.variable} ${geistMono.variable} font-sans antialiased`}
       >
