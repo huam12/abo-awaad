@@ -22,7 +22,7 @@ export const metadata: Metadata = {
     "شركة أبو عواد المتخصصة في أرقى أعمال النجارة والديكورات الخشبية والأثاث المخصص في المملكة العربية السعودية.",
   generator: "v0.app",
   verification: {
-    google: "zNdyjGeIHHooq_m6i6FfDNXwJfc77hZz5J8rX0oM8T4",
+    google: "zNdyjGeIHHooq_m6i6FfDNXwJfc77hZz5J8rX0oM8T4", // ✅ لا تغير هذا
   },
 
   icons: {
@@ -55,7 +55,12 @@ export default function RootLayout({
         className={`${notoClassic.variable} ${geistMono.variable} font-sans antialiased`}
       >
         {children}
+
+        {/* Vercel Analytics */}
         <Analytics />
+
+        {/* Vercel Speed Insights - جمع بيانات الأداء */}
+        <SpeedInsights />
       </body>
     </html>
   );
